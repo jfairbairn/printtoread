@@ -107,7 +107,7 @@ GEM
       pdf-core (~> 0.7.0)
       ttfunk (~> 1.5)
     public_suffix (4.0.1)
-    puma (4.3.0)
+    puma (5.1.1)
       nio4r (~> 2.0)
     rack (2.0.7)
     rack-proxy (0.6.5)
@@ -204,6 +204,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-darwin-19
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
@@ -212,7 +213,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
   prawn
-  puma (~> 4.1)
+  puma (~> 5.1)
   rails (~> 6.0.1)
   sass-rails (>= 6)
   selenium-webdriver
@@ -227,7 +228,7 @@ DEPENDENCIES
   xml-simple
 
 RUBY VERSION
-   ruby 2.6.3p62
+   ruby 2.7.2p137
 
 BUNDLED WITH
-   1.17.2
+   2.2.2
